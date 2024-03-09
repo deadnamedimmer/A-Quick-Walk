@@ -23,6 +23,10 @@ func _physics_process(delta):
 	
 	set_velocity(_working_velocity)
 	move_and_slide()
+	
+	if get_velocity().length() > .2:
+		var look_direction = Vector2(get_velocity().z, get_velocity().x)
+		_model.rotation.y = look_direction.angle()
 
 func _process(delta):
 	_spring_arm.position = position
