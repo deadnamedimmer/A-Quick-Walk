@@ -18,23 +18,14 @@ func _physics_process(delta):
 	move_direction = move_direction.rotated(Vector3.UP, _spring_arm.rotation.y).normalized()
 	
 	_working_velocity.x = move_direction.x * speed
-	_working_velocity.z = move_direction.y * speed
+	_working_velocity.z = move_direction.z * speed
 	_working_velocity.y -= gravity * delta
 	
 	set_velocity(_working_velocity)
-
-	#var just_landed := is_on_floor() and _snap_vector == Vector3.ZERO
-	#var is_jumping := is_on_floor() and Input.is_action_just_pressed("jump")
-	#
-	#if is_jumping:
-		#_working_velocity.y = jump_strength
-		#set_velocity(_working_velocity)
-		#_snap_vector = Vector3.ZERO
-	#elif just_landed:
-		#_snap_vector = Vector3.DOWN
-		
-	#_velocity = move_and_slide_with_snap(_velocity, _snap_vector, Vector3.UP, true)
 	move_and_slide()
+
+func _process(delta):
+	_spring_arm.position = position
 
 
 
