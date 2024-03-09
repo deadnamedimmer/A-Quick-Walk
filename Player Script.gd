@@ -5,7 +5,6 @@ extends CharacterBody3D
 @export var gravity := 50.0
 
 var _working_velocity := Vector3.ZERO
-var _snap_vector := Vector3.DOWN
 
 @onready var _spring_arm: SpringArm3D = $SpringArm3D
 @onready var _model: MeshInstance3D = $CharModel
