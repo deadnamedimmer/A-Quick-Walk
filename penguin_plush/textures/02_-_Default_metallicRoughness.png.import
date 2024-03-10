@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8m6ejemfiexq"
-path.s3tc="res://.godot/imported/02_-_Default_metallicRoughness.png-0b2507898d8aed1f59e067bd68a0ace4.s3tc.ctex"
+path.s3tc="res://godot/imported/02_-_Default_metallicRoughness.png-0b2507898d8aed1f59e067bd68a0ace4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://penguin_plush/textures/02_-_Default_metallicRoughness.png"
-dest_files=["res://.godot/imported/02_-_Default_metallicRoughness.png-0b2507898d8aed1f59e067bd68a0ace4.s3tc.ctex"]
+dest_files=["res://godot/imported/02_-_Default_metallicRoughness.png-0b2507898d8aed1f59e067bd68a0ace4.s3tc.ctex"]
 
 [params]
 

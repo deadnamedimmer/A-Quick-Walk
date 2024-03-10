@@ -7,8 +7,7 @@
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1vhek"]
 radius = 0.967
 
-[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_7eop5"]
-length = 0.2
+[sub_resource type="SphereShape3D" id="SphereShape3D_p1627"]
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_r0qmw")
@@ -20,7 +19,7 @@ shape = SubResource("CapsuleShape3D_1vhek")
 
 [node name="SpringArm3D" type="SpringArm3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2, 2.08165e-12)
-shape = SubResource("SeparationRayShape3D_7eop5")
+shape = SubResource("SphereShape3D_p1627")
 spring_length = 7.0
 margin = 0.2
 script = ExtResource("2_4qqph")

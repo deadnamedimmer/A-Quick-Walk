@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxgcgdlwnd6aj"
-path="res://.godot/imported/Penguin.gltf-6d12fcf4dcb5ae57c4f27dd391aee91b.scn"
+path="res://godot/imported/Penguin.gltf-6d12fcf4dcb5ae57c4f27dd391aee91b.scn"
 
 [deps]
 
 source_file="res://penguin_plush/Penguin.gltf"
-dest_files=["res://.godot/imported/Penguin.gltf-6d12fcf4dcb5ae57c4f27dd391aee91b.scn"]
+dest_files=["res://godot/imported/Penguin.gltf-6d12fcf4dcb5ae57c4f27dd391aee91b.scn"]
 
 [params]
 

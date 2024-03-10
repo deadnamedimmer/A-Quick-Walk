@@ -28,15 +28,13 @@ func _physics_process(delta):
 		_working_velocity.y = jump_strength
 	
 	set_velocity(_working_velocity)
-	print(get_velocity())
 	move_and_slide()
-	print(get_real_velocity())
 	
 	if get_velocity().length() > .2:
 		var look_direction = Vector2(get_velocity().z, get_velocity().x)
 		_model.rotation.y = look_direction.angle()
 
-func _process(delta):
+func _process(_delta):
 	_spring_arm.position = Vector3(position.x, position.y + 1.0, position.z)
 
 
