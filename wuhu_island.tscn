@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://ekjs5w1rvoyk"]
+
+[ext_resource type="PackedScene" uid="uid://b0dvx47oxixm2" path="res://wuhu_island/wuhu_island.blend" id="1_5nb1w"]
+
+[node name="wuhu_island" instance=ExtResource("1_5nb1w")]
+
+[node name="Point" parent="." index="31"]
+visible = false
+
+[node name="Point_001" parent="." index="32"]
+visible = false
+
+[node name="Point_002" parent="." index="33"]
+visible = false
+
+[node name="Spot_001" parent="." index="34"]
+visible = false

@@ -1,27 +1,32 @@
-[gd_scene load_steps=5 format=3 uid="uid://d2j1jjwiuydy5"]
+[gd_scene load_steps=6 format=3 uid="uid://d2j1jjwiuydy5"]
 
 [ext_resource type="Script" path="res://Player Script.gd" id="1_r0qmw"]
 [ext_resource type="Script" path="res://Spring Arm Script.gd" id="2_4qqph"]
+[ext_resource type="PackedScene" uid="uid://dxgcgdlwnd6aj" path="res://penguin_plush/Penguin.gltf" id="3_os2m8"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_4gcab"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1vhek"]
+radius = 0.967
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tdqn6"]
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_7eop5"]
+length = 0.2
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_r0qmw")
-
-[node name="CharModel" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 1, 2.08165e-12)
-mesh = SubResource("CapsuleMesh_4gcab")
+speed = 15.0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 1, 2.08165e-12)
-shape = SubResource("CapsuleShape3D_tdqn6")
+shape = SubResource("CapsuleShape3D_1vhek")
 
 [node name="SpringArm3D" type="SpringArm3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2, 2.08165e-12)
+shape = SubResource("SeparationRayShape3D_7eop5")
 spring_length = 7.0
 margin = 0.2
 script = ExtResource("2_4qqph")
 
 [node name="Camera3D" type="Camera3D" parent="SpringArm3D"]
 current = true
+
+[node name="CharModel" parent="." instance=ExtResource("3_os2m8")]
+transform = Transform3D(0.82, 0, 0, 0, 0.82, 0, 0, 0, 0.82, 2.08165e-12, 2.08165e-12, 0.106047)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Penguin plush
+* source:	https://sketchfab.com/3d-models/penguin-plush-228fddb7362f42e2a349b84cbe8191b4
+* author:	SunnyBuns (https://sketchfab.com/SunnyBuns)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Penguin plush" (https://sketchfab.com/3d-models/penguin-plush-228fddb7362f42e2a349b84cbe8191b4) by SunnyBuns (https://sketchfab.com/SunnyBuns) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
