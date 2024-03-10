@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://4f8l7nw3en6o"]
+[gd_scene load_steps=8 format=3 uid="uid://4f8l7nw3en6o"]
 
 [ext_resource type="PackedScene" uid="uid://d2j1jjwiuydy5" path="res://Player.tscn" id="1_m56n4"]
+[ext_resource type="MeshLibrary" uid="uid://bg1feyeqcu82" path="res://Terrain.tres" id="2_cvyss"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_m3a3o"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -32,6 +33,7 @@ shadow_enabled = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0923615, -0.39609, -0.00298691)
+visible = false
 mesh = SubResource("BoxMesh_b1yrj")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
@@ -41,3 +43,12 @@ shape = SubResource("ConcavePolygonShape3D_ke8mt")
 
 [node name="Player" parent="." instance=ExtResource("1_m56n4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.11547, 0)
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("2_cvyss")
+cell_size = Vector3(5, 1, 5)
+cell_scale = 5.0
+data = {
+"cells": PackedInt32Array(1, 65530, 15, 7, 65533, 17, 7, 4, 1441809, 2, 5, 1441806)
+}
+metadata/_editor_floor_ = Vector3(0, 0, 0)
