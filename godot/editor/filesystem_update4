@@ -1,3 +1,4 @@
 res://World.tscn
-res://Terrain.tscn
-res://Terrain.tres
+res://library.tres
+res://library.tscn
+res://library_w_collisions.tres

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cw1to6nug8d3d"
+path="res://godot/imported/tree_tall_dark.obj-09e2915dea86142267d61e096c8032cb.mesh"
+
+[deps]
+
+files=["res://godot/imported/tree_tall_dark.obj-09e2915dea86142267d61e096c8032cb.mesh"]
+
+source_file="res://kenny_nature_obj/tree_tall_dark.obj"
+dest_files=["res://godot/imported/tree_tall_dark.obj-09e2915dea86142267d61e096c8032cb.mesh", "res://godot/imported/tree_tall_dark.obj-09e2915dea86142267d61e096c8032cb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

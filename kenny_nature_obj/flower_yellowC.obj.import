@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cply74slis2p3"
+path="res://godot/imported/flower_yellowC.obj-12f2db7e69cef334a5c921e0a65d1a8f.mesh"
+
+[deps]
+
+files=["res://godot/imported/flower_yellowC.obj-12f2db7e69cef334a5c921e0a65d1a8f.mesh"]
+
+source_file="res://kenny_nature_obj/flower_yellowC.obj"
+dest_files=["res://godot/imported/flower_yellowC.obj-12f2db7e69cef334a5c921e0a65d1a8f.mesh", "res://godot/imported/flower_yellowC.obj-12f2db7e69cef334a5c921e0a65d1a8f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

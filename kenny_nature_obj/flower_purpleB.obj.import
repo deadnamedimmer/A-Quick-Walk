@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dj0ayom4pojsv"
+path="res://godot/imported/flower_purpleB.obj-3bd521edee37034d417f44e58ff976aa.mesh"
+
+[deps]
+
+files=["res://godot/imported/flower_purpleB.obj-3bd521edee37034d417f44e58ff976aa.mesh"]
+
+source_file="res://kenny_nature_obj/flower_purpleB.obj"
+dest_files=["res://godot/imported/flower_purpleB.obj-3bd521edee37034d417f44e58ff976aa.mesh", "res://godot/imported/flower_purpleB.obj-3bd521edee37034d417f44e58ff976aa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://degxvhyw3qkwg"
+path="res://godot/imported/ground_pathSplit.obj-15f6f2ee9f5a01a118bc186827a2a625.mesh"
+
+[deps]
+
+files=["res://godot/imported/ground_pathSplit.obj-15f6f2ee9f5a01a118bc186827a2a625.mesh"]
+
+source_file="res://kenny_nature_obj/ground_pathSplit.obj"
+dest_files=["res://godot/imported/ground_pathSplit.obj-15f6f2ee9f5a01a118bc186827a2a625.mesh", "res://godot/imported/ground_pathSplit.obj-15f6f2ee9f5a01a118bc186827a2a625.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xd2qi7y5lcmi"
+path="res://godot/imported/cliff_waterfallTop_rock.obj-c6ca58f1c567d90be920dc95b7828aeb.mesh"
+
+[deps]
+
+files=["res://godot/imported/cliff_waterfallTop_rock.obj-c6ca58f1c567d90be920dc95b7828aeb.mesh"]
+
+source_file="res://kenny_nature_obj/cliff_waterfallTop_rock.obj"
+dest_files=["res://godot/imported/cliff_waterfallTop_rock.obj-c6ca58f1c567d90be920dc95b7828aeb.mesh", "res://godot/imported/cliff_waterfallTop_rock.obj-c6ca58f1c567d90be920dc95b7828aeb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b1aax8ytxp1a4"
+path="res://godot/imported/stump_roundDetailed.obj-afbf3d84f3eb07b74dbabb8b7b66106e.mesh"
+
+[deps]
+
+files=["res://godot/imported/stump_roundDetailed.obj-afbf3d84f3eb07b74dbabb8b7b66106e.mesh"]
+
+source_file="res://kenny_nature_obj/stump_roundDetailed.obj"
+dest_files=["res://godot/imported/stump_roundDetailed.obj-afbf3d84f3eb07b74dbabb8b7b66106e.mesh", "res://godot/imported/stump_roundDetailed.obj-afbf3d84f3eb07b74dbabb8b7b66106e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

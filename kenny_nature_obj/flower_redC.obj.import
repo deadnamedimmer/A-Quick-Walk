@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://co7657bickiys"
+path="res://godot/imported/flower_redC.obj-684300ddb4f7c03df7aa6b064d7072cf.mesh"
+
+[deps]
+
+files=["res://godot/imported/flower_redC.obj-684300ddb4f7c03df7aa6b064d7072cf.mesh"]
+
+source_file="res://kenny_nature_obj/flower_redC.obj"
+dest_files=["res://godot/imported/flower_redC.obj-684300ddb4f7c03df7aa6b064d7072cf.mesh", "res://godot/imported/flower_redC.obj-684300ddb4f7c03df7aa6b064d7072cf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

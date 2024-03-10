@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://v4ahi5dm73b7"
+path="res://godot/imported/ground_pathSideOpen.obj-6922b79d80b97150d9dc797a1aaed910.mesh"
+
+[deps]
+
+files=["res://godot/imported/ground_pathSideOpen.obj-6922b79d80b97150d9dc797a1aaed910.mesh"]
+
+source_file="res://kenny_nature_obj/ground_pathSideOpen.obj"
+dest_files=["res://godot/imported/ground_pathSideOpen.obj-6922b79d80b97150d9dc797a1aaed910.mesh", "res://godot/imported/ground_pathSideOpen.obj-6922b79d80b97150d9dc797a1aaed910.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

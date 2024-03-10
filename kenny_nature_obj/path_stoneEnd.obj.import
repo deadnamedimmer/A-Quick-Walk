@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwwsgu17tgmhu"
+path="res://godot/imported/path_stoneEnd.obj-4a634a6a5c1b7a5bbae08a0f9d45ce2e.mesh"
+
+[deps]
+
+files=["res://godot/imported/path_stoneEnd.obj-4a634a6a5c1b7a5bbae08a0f9d45ce2e.mesh"]
+
+source_file="res://kenny_nature_obj/path_stoneEnd.obj"
+dest_files=["res://godot/imported/path_stoneEnd.obj-4a634a6a5c1b7a5bbae08a0f9d45ce2e.mesh", "res://godot/imported/path_stoneEnd.obj-4a634a6a5c1b7a5bbae08a0f9d45ce2e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
