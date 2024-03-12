@@ -1,4 +1,8 @@
 res://World.tscn
-res://library.tres
-res://library.tscn
 res://library_w_collisions.tres
+res://library.tscn
+res://Water.gdshader
+res://Pixel.gdshader
+res://Player.tscn
+res://Pixelate.gdshader
+res://EdgeHighlight.gdshader
